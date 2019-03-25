@@ -2,13 +2,14 @@
   <div id="app">
         <div class="nav">
         <ul>
-          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/home">Home</router-link></li>
           <li><router-link to="/about">About</router-link></li>
         </ul>
     </div>
      <div class="main">
        <router-view></router-view>
      </div>
+     <Msite></Msite>
   </div>
 </template>
 
@@ -31,12 +32,5 @@ export default {
 </script>
 
 <style>
-*{
-  margin:0;
-  padding:0;
-}
-#app {
 
-
-}
 </style>
